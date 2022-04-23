@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+
+*{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    background-image: linear-gradient(to right bottom, #010102, #070c0f, #0a1415, #111a16, #1c1f15);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    list-style-type: none;
+}
+
+.a{
+    color:green;
+    text-decoration: none;
+    border: 1px solid rgb(black) ;
+    background-image: linear-gradient(to right bottom, #010102, #070c0f, #0a1415, #111a16, #1c1f15);
+    border-radius: 15px;
+    padding:10px;
+    box-shadow: 1px 2px ;
+}
+.img{
+    text-align: center;
+}
+main{
+    color:white;
+
+}
+header{
+    color:white;
+}
+.img img{
+    border-radius: 80px;
+    border: 1px solid gray;
+    box-shadow: 5px 1px 10px  gray
+}
+.sobre{
+    border-radius: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./bots/bootstrap.css" rel="stylesheet">
+
+</head>
+<style>
+
+</style>
+<body>
+    <div class="form-group">
+        <form name="formPessoal" action="/add" 
+        method="post">
+        <table>
+        <tr> 
+        <th colspan="2">Formul&aacute;rio 
+        de contato</th>
+        </tr>
+        <tr> 
+        <td><label>Nome</label></td>
+        <td><input name="nome" type="text" size="33" 
+        maxlength="1000" required></td>
+        </tr>
+        <tr> 
+        <td><label>*e-mail</label></td>
+        <td><input name="email" type="text" size="33" 
+        maxlength="1000" required   ></td>
+        </tr>
+        <tr> 
+        <td><label>Telefone</label></td>
+        <td><input name="subject" type="text" size="33" 
+        maxlength="1000" required></td>
+        </tr>
+        <tr> 
+        <td><label>*Coment&aacute;rios</label>
+        </td>
+        <td><textarea name="comentario" cols="25" 
+        rows="7" required >
+        </textarea>
+        </td>
+        </tr>
+        <tr> 
+        <td><input name="submit" type="submit" 
+        value="Enviar" 
+        class="botao">
+        </td>
+        <td>*Campos de preenchimento obrigat&oacute;rio</td>
+        </tr>
+        </table>
+        </form>
+    </div>
+</body>
+</html>
